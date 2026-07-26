@@ -1,0 +1,29 @@
+Machine Learning Fundamentals
+
+Machine Learning is a major area of Artificial Intelligence that focuses on creating systems capable of learning patterns from data. Instead of programming every possible rule manually, machine learning algorithms use examples to identify relationships and make predictions on new data.
+
+Machine learning problems are commonly divided into supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, the algorithm learns from labeled examples. Each training example contains input features and a known target value. Classification predicts categories, such as whether an email is spam or not spam. Regression predicts continuous numerical values, such as house prices.
+
+Unsupervised learning works with data that does not have labeled target values. The goal is to discover hidden structures or patterns. Clustering algorithms group similar observations together. Dimensionality reduction methods transform data into fewer dimensions while preserving important information. These techniques can help analysts explore large datasets.
+
+Reinforcement learning involves an agent interacting with an environment. The agent takes actions and receives rewards or penalties. Over time, the agent learns a strategy for choosing actions. Reinforcement learning has been used in robotics, games, and decision-making systems.
+
+A machine learning project usually begins with data collection. Data may come from databases, files, APIs, sensors, or user interactions. Data preparation is often one of the most important steps. Real-world datasets frequently contain missing values, duplicate records, inconsistent formats, and incorrect data types.
+
+Exploratory data analysis helps understand the dataset. Analysts inspect the shape of the data, data types, summary statistics, missing values, and relationships between variables. Visualization can reveal patterns that are difficult to identify from raw tables.
+
+Feature engineering is the process of creating useful input variables from existing data. For example, a date column can be converted into year, month, or day-of-week features. Text can be converted into numerical representations using methods such as TF-IDF or embeddings.
+
+The dataset is commonly divided into training and testing sets. The training data is used to fit the model, while the test data is used to evaluate performance on unseen examples. It is important to avoid data leakage. Information from the test set should not influence the training process.
+
+A model that performs very well on training data but poorly on new data may be overfitting. Overfitting occurs when the model learns noise or specific details instead of general patterns. Underfitting occurs when the model is too simple to capture important relationships.
+
+Common machine learning algorithms include linear regression, logistic regression, decision trees, random forests, support vector machines, k-nearest neighbors, and gradient boosting. The best algorithm depends on the data and business problem.
+
+Cross-validation is commonly used to estimate how well a model generalizes. The dataset is divided into multiple folds. The model is trained on some folds and evaluated on another fold. This process is repeated so that each fold is used for validation.
+
+Hyperparameter tuning is used to find better model configurations. Grid search and randomized search can test different parameter combinations. Preprocessing and model training should be placed in a single pipeline to reduce data leakage.
+
+Machine learning evaluation should use appropriate metrics. Classification may use accuracy, precision, recall, F1-score, or ROC-AUC. Regression may use MAE, MSE, RMSE, or R-squared. The selected metric should reflect the actual objective of the application.
+
+Machine learning is most valuable when it solves a meaningful problem. A technically accurate model may still be ineffective if it does not support a useful business decision. Therefore, successful machine learning projects combine technical modeling with clear problem definition, reliable data, evaluation, and deployment considerations.

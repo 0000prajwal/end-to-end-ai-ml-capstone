@@ -1,0 +1,107 @@
+[
+    {
+        "query": "What is supervised learning?",
+        "retrieved_chunks": [
+            {
+                "source": "machine_learning.txt",
+                "content": "Machine Learning Fundamentals\n\nMachine Learning is a major area of Artificial Intelligence that focuses on creating systems capable of learning patterns from data. Instead of programming every possible rule manually, machine learning algorithms use examples to identify relationships and make predictions on new data.\n\nMachine learning problems are commonly divided into supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, the algorithm learns from labeled",
+                "distance": 0.7273370027542114
+            },
+            {
+                "source": "machine_learning.txt",
+                "content": " examples. Each training example contains input features and a known target value. Classification predicts categories, such as whether an email is spam or not spam. Regression predicts continuous numerical values, such as house prices.\n\nUnsupervised learning works with data that does not have labeled target values. The goal is to discover hidden structures or patterns. Clustering algorithms group similar observations together. Dimensionality reduction methods transform data into fewer dimensions",
+                "distance": 0.877141535282135
+            },
+            {
+                "source": "machine_learning.txt",
+                "content": " while preserving important information. These techniques can help analysts explore large datasets.\n\nReinforcement learning involves an agent interacting with an environment. The agent takes actions and receives rewards or penalties. Over time, the agent learns a strategy for choosing actions. Reinforcement learning has been used in robotics, games, and decision-making systems.\n\nA machine learning project usually begins with data collection. Data may come from databases, files, APIs, sensors, or",
+                "distance": 1.0026381015777588
+            }
+        ],
+        "final_answer": "Supervised learning is a type of machine learning where the algorithm learns from labeled examples. Each training example contains input features and a known target value. It is used for tasks such as classification, which predicts categories, and regression, which predicts continuous numerical values."
+    },
+    {
+        "query": "What is deep learning?",
+        "retrieved_chunks": [
+            {
+                "source": "deep_learning.txt",
+                "content": "Deep Learning and Neural Networks\n\nDeep Learning is a specialized area of machine learning that uses neural networks with multiple layers. These networks are inspired by the structure of biological neurons, although artificial neural networks operate using mathematical computations rather than biological processes.\n\nA basic neural network contains an input layer, one or more hidden layers, and an output layer. The input layer receives features. Hidden layers transform information through mathema",
+                "distance": 0.5525306463241577
+            },
+            {
+                "source": "deep_learning.txt",
+                "content": "zer then updates the weights.\n\nDeep learning often requires large datasets and significant computational resources. Graphics processing units can accelerate the mathematical operations required during training. However, smaller models can sometimes be trained on ordinary computers.\n\nConvolutional Neural Networks are widely used for image processing. Convolutional layers learn local patterns such as edges, textures, and shapes. As the network becomes deeper, it can learn increasingly complex visu",
+                "distance": 0.6974531412124634
+            },
+            {
+                "source": "deep_learning.txt",
+                "content": "raining examples.\n\nTransfer learning allows a model trained on a large dataset to be adapted to another task. This can reduce training time and the amount of labeled data required. Pretrained models are commonly used in image recognition and natural language processing.\n\nDeep learning has applications in image recognition, speech recognition, machine translation, recommendation systems, medical analysis, robotics, and generative AI. Its performance can be powerful, but responsible evaluation rem",
+                "distance": 0.7156316041946411
+            }
+        ],
+        "final_answer": "Deep Learning is a specialized area of machine learning that uses neural networks with multiple layers, inspired by the structure of biological neurons, to perform mathematical computations."
+    },
+    {
+        "query": "What is natural language processing?",
+        "retrieved_chunks": [
+            {
+                "source": "nlp.txt",
+                "content": "Natural Language Processing\n\nNatural Language Processing, or NLP, is a field of Artificial Intelligence that focuses on enabling computers to work with human language. Human language is complex because the same word can have different meanings depending on context. NLP systems attempt to understand, process, classify, translate, and generate text.\n\nText preprocessing is an important part of many NLP projects. Common preprocessing tasks include converting text to lowercase, removing unnecessary c",
+                "distance": 0.43487197160720825
+            },
+            {
+                "source": "nlp.txt",
+                "content": "cally.\n\nNLP systems should be evaluated using appropriate metrics. Classification can use accuracy, precision, recall, and F1-score. Text generation may use different evaluation methods depending on the task.\n\nLanguage data can contain bias, private information, and cultural differences. NLP developers should consider fairness and privacy when building applications. Systems should be tested across different types of users and language patterns.\n\nNLP continues to develop rapidly. Modern systems c",
+                "distance": 0.9222396016120911
+            },
+            {
+                "source": "nlp.txt",
+                "content": "ation, summarization, and information extraction. A customer support system might classify a ticket into payment, delivery, technical, or account categories.\n\nSentiment analysis attempts to determine the emotional tone of text. A message can be classified as positive, negative, or neutral. More advanced systems may identify emotions such as anger, satisfaction, or frustration.\n\nNamed entity recognition identifies important entities in text. Examples include people, organizations, locations, date",
+                "distance": 0.9286681413650513
+            }
+        ],
+        "final_answer": "Natural Language Processing, or NLP, is a field of Artificial Intelligence that focuses on enabling computers to work with human language. It involves understanding, processing, classifying, translating, and generating text."
+    },
+    {
+        "query": "What is computer vision?",
+        "retrieved_chunks": [
+            {
+                "source": "computer_vision.txt",
+                "content": "Computer Vision\n\nComputer Vision is an area of Artificial Intelligence that enables computers to process and understand visual information. Images and videos contain large amounts of data, and computer vision algorithms attempt to identify objects, patterns, and meaningful information within them.\n\nAn image can be represented as a collection of pixels. Each pixel contains numerical information about color and brightness. A color image commonly contains channels representing red, green, and blue.",
+                "distance": 0.4047611951828003
+            },
+            {
+                "source": "computer_vision.txt",
+                "content": "s. Such applications require careful evaluation because errors may have serious consequences.\n\nIn manufacturing, computer vision can inspect products for defects. Cameras can capture images of products and machine learning models can identify irregularities. This can improve quality control and reduce manual inspection work.\n\nIn agriculture, computer vision can help monitor crops, detect diseases, and estimate plant health. Drones and other imaging systems can collect visual data across large ar",
+                "distance": 0.7273038625717163
+            },
+            {
+                "source": "computer_vision.txt",
+                "content": "ust be considered. Efficient preprocessing and model optimization can improve performance.\n\nComputer vision continues to benefit from advances in deep learning, self-supervised learning, and multimodal models. Modern systems can combine visual and textual information to answer questions about images.\n\nA successful computer vision project requires suitable data, correct labels, appropriate preprocessing, a suitable model, and meaningful evaluation. The technology is powerful, but the quality and ",
+                "distance": 0.8795217871665955
+            }
+        ],
+        "final_answer": "Computer Vision is an area of Artificial Intelligence that enables computers to process and understand visual information, identifying objects, patterns, and meaningful information within images and videos."
+    },
+    {
+        "query": "What is artificial intelligence?",
+        "retrieved_chunks": [
+            {
+                "source": "ai_basics.txt",
+                "content": "Artificial Intelligence: Basic Concepts\n\nArtificial Intelligence, commonly called AI, is a field of computer science focused on building systems that can perform tasks that normally require human intelligence. These tasks include understanding language, recognizing images, learning from data, solving problems, making predictions, and making decisions. AI systems do not necessarily think exactly like humans. Instead, they use algorithms, data, and computational power to perform intelligent tasks.",
+                "distance": 0.3577842116355896
+            },
+            {
+                "source": "ai_basics.txt",
+                "content": "forming a wide range of intellectual tasks like a human. Artificial superintelligence is another theoretical concept involving intelligence beyond human capabilities.\n\nAI applications are used in many industries. In healthcare, AI can assist with medical image analysis and patient risk prediction. In finance, AI can help detect fraudulent transactions. In transportation, AI supports route optimization and autonomous driving research. In education, AI can provide personalized learning experiences",
+                "distance": 0.7260340452194214
+            },
+            {
+                "source": "ai_basics.txt",
+                "content": "\n\nThe development of AI has progressed through several stages. Early AI systems were based mainly on rules written by humans. For example, a programmer could create a system that says if a specific condition is true, then perform a specific action. These rule-based systems were useful for narrow problems but had difficulty handling situations that were not explicitly programmed.\n\nModern AI often uses machine learning. Instead of manually writing every rule, developers provide data and allow algo",
+                "distance": 0.8653175830841064
+            }
+        ],
+        "final_answer": "Artificial Intelligence, commonly called AI, is a field of computer science focused on building systems that can perform tasks that normally require human intelligence, such as understanding language, recognizing images, learning from data, solving problems, making predictions, and making decisions."
+    }
+]
